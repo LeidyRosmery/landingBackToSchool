@@ -18,12 +18,14 @@ $(document).ready(function() {
       // $('.video-tip-current').fadeOut('slow');
 
       // $(".video-tip-current").fadeTo("slow",0);
+      //
+     e.preventDefault();
+      // $('.img-current ').attr('src', contenidoCurrentVideo[$(this).data('video')].img);
+      // $('.text-current').html(contenidoCurrentVideo[$(this).data('video')].texto);
+      // var currentVideo = $(this).find('[class*=video-tip-]').css('background-image');
+      // $(".video-tip-current").css("background-image", currentVideo);
 
-      e.preventDefault();
-      $('.img-current ').attr('src', contenidoCurrentVideo[$(this).data('video')].img);
-      $('.text-current').html(contenidoCurrentVideo[$(this).data('video')].texto);
-      var currentVideo = $(this).find('[class*=video-tip-]').css('background-image');
-      $(".video-tip-current").css("background-image", currentVideo);
+
         // $('.video-tip-current').fadeIn('fast');
         // $(".video-tip-current").fadeTo("slow",1);
 

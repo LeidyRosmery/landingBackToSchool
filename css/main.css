@@ -278,10 +278,7 @@ a:hover, a {
   font-weight: 500;
 }
 
-.video-tip-current {
-  background-image: url(../img/banner-web2.jpg);
-  height: 350px;
-}
+
 
 .video-tip-1 {
   background-image: url(../img/banner-web2.jpg);
@@ -809,11 +806,14 @@ top: 88%; */
     padding: 5px 0;
     background: #fff;
   }
-  .contenedor-item-tip {
+  /* .contenedor-item-tip {
     padding: 30px;
+  } */
+  .slider-nav .slick-list.draggable{
+    padding: 0px 31px !important;
   }
   .pad-video-tip {
-    padding: 10px 8px;
+    padding: 0px 8px;
   }
   .div-play-current {
     position: absolute;
